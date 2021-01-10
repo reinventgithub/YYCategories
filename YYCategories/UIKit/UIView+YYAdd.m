@@ -173,97 +173,97 @@ YYSYNTH_DUMMY_CLASS(UIView_YYAdd)
     return rect;
 }
 
-- (CGFloat)left {
+- (CGFloat)yyLeft {
     return self.frame.origin.x;
 }
 
-- (void)setLeft:(CGFloat)x {
+- (void)setYyLeft:(CGFloat)x {
     CGRect frame = self.frame;
     frame.origin.x = x;
     self.frame = frame;
 }
 
-- (CGFloat)top {
+- (CGFloat)yyTop {
     return self.frame.origin.y;
 }
 
-- (void)setTop:(CGFloat)y {
+- (void)setYyTop:(CGFloat)y {
     CGRect frame = self.frame;
     frame.origin.y = y;
     self.frame = frame;
 }
 
-- (CGFloat)right {
+- (CGFloat)yyRight {
     return self.frame.origin.x + self.frame.size.width;
 }
 
-- (void)setRight:(CGFloat)right {
+- (void)setYyRight:(CGFloat)right {
     CGRect frame = self.frame;
     frame.origin.x = right - frame.size.width;
     self.frame = frame;
 }
 
-- (CGFloat)bottom {
+- (CGFloat)yyBottom {
     return self.frame.origin.y + self.frame.size.height;
 }
 
-- (void)setBottom:(CGFloat)bottom {
+- (void)setYyBottom:(CGFloat)bottom {
     CGRect frame = self.frame;
     frame.origin.y = bottom - frame.size.height;
     self.frame = frame;
 }
 
-- (CGFloat)width {
+- (CGFloat)yyWidth {
     return self.frame.size.width;
 }
 
-- (void)setWidth:(CGFloat)width {
+- (void)setYyWidth:(CGFloat)width {
     CGRect frame = self.frame;
     frame.size.width = width;
     self.frame = frame;
 }
 
-- (CGFloat)height {
+- (CGFloat)yyHeight {
     return self.frame.size.height;
 }
 
-- (void)setHeight:(CGFloat)height {
+- (void)setYyHeight:(CGFloat)height {
     CGRect frame = self.frame;
     frame.size.height = height;
     self.frame = frame;
 }
 
-- (CGFloat)centerX {
+- (CGFloat)yyCenterX {
     return self.center.x;
 }
 
-- (void)setCenterX:(CGFloat)centerX {
+- (void)setYyCenterX:(CGFloat)centerX {
     self.center = CGPointMake(centerX, self.center.y);
 }
 
-- (CGFloat)centerY {
+- (CGFloat)yyCenterY {
     return self.center.y;
 }
 
-- (void)setCenterY:(CGFloat)centerY {
+- (void)setYyCenterY:(CGFloat)centerY {
     self.center = CGPointMake(self.center.x, centerY);
 }
 
-- (CGPoint)origin {
+- (CGPoint)yyOrigin {
     return self.frame.origin;
 }
 
-- (void)setOrigin:(CGPoint)origin {
+- (void)setYyOrigin:(CGPoint)origin {
     CGRect frame = self.frame;
     frame.origin = origin;
     self.frame = frame;
 }
 
-- (CGSize)size {
+- (CGSize)yySize {
     return self.frame.size;
 }
 
-- (void)setSize:(CGSize)size {
+- (void)setYySize:(CGSize)size {
     CGRect frame = self.frame;
     frame.size = size;
     self.frame = frame;
